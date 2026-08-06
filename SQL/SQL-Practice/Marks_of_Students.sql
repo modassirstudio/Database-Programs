@@ -1,0 +1,25 @@
+-- CREATE DATABASE IF NOT EXISTS practice;
+-- USE practice;
+-- CREATE TABLE IF NOT EXISTS marks_of_students(
+-- 	roll_number INT PRIMARY KEY AUTO_INCREMENT,
+-- 	name VARCHAR(50),
+--     class INT,
+--     marks_obtained INT
+--     );
+-- INSERT INTO marks_of_students(name, class, marks_obtained)
+-- VALUES('Md Modassir', 12, 432),
+-- 	('Amaan Faisal', 12, 425),
+--     ('Shadan Shahid', 12, 422),
+--     ('Shiraj Alam', 12, 416),
+--     ('Aman Rahman', 12, 410),
+--     ('Ayan Rahman', 12, 402),
+--     ('Riyan Parag', 12, 399),
+--     ('Shubman Gill', 12, 390),
+--     ('Jofra Archer', 12, 387),
+--     ('Virat Kohli', 12, 382);
+-- SELECT * FROM marks_of_students;
+-- ALTER TABLE marks_of_students
+-- ADD city VARCHAR(50) DEFAULT 'Delhi';
+-- UPDATE marks_of_students
+-- SET marks_obtained = 428
+-- WHERE roll_number = 1;

@@ -1,0 +1,59 @@
+-- CREATE DATABASE IF NOT EXISTS practice;
+-- USE practice;
+-- CREATE TABLE IF NOT EXISTS orders(
+-- 	order_id INT PRIMARY KEY AUTO_INCREMENT,
+-- 	name VARCHAR(50),
+--     city VARCHAR(100),
+--     email VARCHAR(150),
+--     delivery_status VARCHAR(50)
+--     );
+    
+-- INSERT INTO orders(name, city, email, delivery_status)
+-- VALUES
+-- ('Md Modassir', 'Bihar', 'modassir@gmail.com', 'Delivered'),
+-- ('Md Injemem Alam', 'Delhi', 'injemam@gmail.com', 'Delivered'),
+-- ('Shams Mallick', 'Delhi', 'shams@gmail.com', 'Pending'),
+-- ('Shiraj Alam', 'Bihar', 'shaina@gmail.com', 'Delivered'),
+-- ('Shaina Rasheed', 'Mumbai', 'shiraj@gmail.com', 'Delivered'),
+-- ('Md Amaan Faisal', 'Gujarat', 'amaanfaisal@gmail.com', 'Pending'),
+-- ('Shadan Shahid', 'Gujarat', 'shadan@gmail.com', 'Delivered'),
+-- ('Gauhar Iftekhar', 'Bihar', 'gauhar@gmail.com', 'Delivered'),
+-- ('Mohit Raj', 'Bihar', 'mohitraj@gmail.com', 'Pending'),
+-- ('Sushant Singh', 'Delhi', 'sushant@gmail.com', 'Delivered'),
+-- ('A', 'Delhi', 'a@gmail.com', 'Delivered'),
+-- ('B', 'Maharashtra', 'b@gmail.com', 'Pending'),
+-- ('C', 'Karnataka', 'c@gmail.com', 'Delivered'),
+-- ('D', 'Tamil Nadu', 'd@gmail.com', 'Pending'),
+-- ('E', 'West Bengal', 'e@gmail.com', 'Delivered'),
+-- ('F', 'Gujarat', 'f@gmail.com', 'Pending'),
+-- ('G', 'Rajasthan', 'g@gmail.com', 'Delivered'),
+-- ('H', 'Uttar Pradesh', 'h@gmail.com', 'Pending'),
+-- ('I', 'Punjab', 'i@gmail.com', 'Delivered'),
+-- ('J', 'Haryana', 'j@gmail.com', 'Pending'),
+-- ('K', 'Delhi', 'k@gmail.com', 'Delivered'),
+-- ('L', 'Maharashtra', 'l@gmail.com', 'Pending'),
+-- ('M', 'Karnataka', 'm@gmail.com', 'Delivered'),
+-- ('N', 'Tamil Nadu', 'n@gmail.com', 'Pending'),
+-- ('O', 'West Bengal', 'o@gmail.com', 'Delivered'),
+-- ('P', 'Gujarat', 'p@gmail.com', 'Pending'),
+-- ('Q', 'Rajasthan', 'q@gmail.com', 'Delivered'),
+-- ('R', 'Uttar Pradesh', 'r@gmail.com', 'Pending'),
+-- ('S', 'Punjab', 's@gmail.com', 'Delivered'),
+-- ('T', 'Haryana', 't@gmail.com', 'Pending'),
+-- ('U', 'Delhi', 'u@gmail.com', 'Delivered'),
+-- ('V', 'Maharashtra', 'v@gmail.com', 'Pending'),
+-- ('W', 'Karnataka', 'w@gmail.com', 'Delivered'),
+-- ('X', 'Tamil Nadu', 'x@gmail.com', 'Pending'),
+-- ('Y', 'West Bengal', 'y@gmail.com', 'Delivered'),
+-- ('Z', 'Gujarat', 'z@gmail.com', 'Pending')
+
+-- SELECT COUNT(order_id) FROM orders;
+
+-- CREATE TABLE IF NOT EXISTS checkkk(
+-- 	N1 INT,
+--     N2 INT);
+    
+-- INSERT INTO checkkk(N1, N2) VALUES(1, 2), (2, 3), (3, 4), (4, 5);
+-- SELECT SUM(N1 * N2) AS N3 FROM checkkk;
+-- SELECT * FROM checkkk;
+-- SELECT CURRENT_TIME;

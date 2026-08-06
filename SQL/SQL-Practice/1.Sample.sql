@@ -1,0 +1,2 @@
+CREATE DATABASE e1;
+USE e1;
