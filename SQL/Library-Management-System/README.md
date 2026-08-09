@@ -1,4 +1,4 @@
-\# 📚 Library Management System
+\# Library Management System
 
 
 
@@ -6,7 +6,7 @@ A MySQL-based Library Management System designed to manage books, members, and b
 
 
 
-\## 📖 Project Overview
+\## Project Overview
 
 
 
@@ -14,7 +14,7 @@ The Library Management System helps libraries efficiently manage their collectio
 
 
 
-\## ✨ Features
+\## Features
 
 
 
@@ -33,7 +33,7 @@ The Library Management System helps libraries efficiently manage their collectio
 
 
 
-\## 🖼 Screenshots
+\## Screenshots
 
 
 
@@ -41,7 +41,7 @@ Project screenshots are available in the \*\*Screenshots\*\* folder.
 
 
 
-\## 📐 ER Diagram
+\## ER Diagram
 
 
 
@@ -49,7 +49,7 @@ The Entity Relationship Diagram is available in the \*\*ER-Diagram\*\* folder.
 
 
 
-\## 🚀 How to Use
+\## How to Use
 
 
 
