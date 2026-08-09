@@ -32,27 +32,6 @@ The Library Management System helps libraries efficiently manage their collectio
 
 
 
-\## 🗂 Project Structure
-
-
-
-```text
-
-Library-Management-System/
-
-├── Library-Management-System.sql
-
-├── README.md
-
-├── Screenshots/
-
-└── ER-Diagram/
-
-```
-
-
-
-
 
 \## 🖼 Screenshots
 
