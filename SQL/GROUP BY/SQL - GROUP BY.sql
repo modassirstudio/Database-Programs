@@ -1,24 +1,24 @@
--- create database if not exists deepseek;
--- use deepseek;
+create database if not exists deepseek;
+use deepseek;
 
--- CREATE TABLE IF NOT EXISTS sales (
---   id INT PRIMARY KEY AUTO_INCREMENT,
---   product VARCHAR(50),
---   category VARCHAR(50),
---   amount INT,
---   sale_date DATE
--- );
+CREATE TABLE IF NOT EXISTS sales (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  product VARCHAR(50),
+  category VARCHAR(50),
+  amount INT,
+  sale_date DATE
+);
 
--- INSERT INTO sales (product, category, amount, sale_date) VALUES
--- ('Pen', 'Stationery', 10, '2026-09-01'),
--- ('Notebook', 'Stationery', 50, '2026-09-01'),
--- ('Coke', 'Beverage', 20, '2026-09-01'),
--- ('Pen', 'Stationery', 10, '2026-09-02'),
--- ('Coke', 'Beverage', 20, '2026-09-02'),
--- ('Chips', 'Snacks', 30, '2026-09-02'),
--- ('Notebook', 'Stationery', 50, '2026-09-03'),
--- ('Chips', 'Snacks', 30, '2026-09-03'),
--- ('Water', 'Beverage', 15, '2026-09-03');
+INSERT INTO sales (product, category, amount, sale_date) VALUES
+('Pen', 'Stationery', 10, '2026-09-01'),
+('Notebook', 'Stationery', 50, '2026-09-01'),
+('Coke', 'Beverage', 20, '2026-09-01'),
+('Pen', 'Stationery', 10, '2026-09-02'),
+('Coke', 'Beverage', 20, '2026-09-02'),
+('Chips', 'Snacks', 30, '2026-09-02'),
+('Notebook', 'Stationery', 50, '2026-09-03'),
+('Chips', 'Snacks', 30, '2026-09-03'),
+('Water', 'Beverage', 15, '2026-09-03');
 
 -- Q1. Show the total sales amount for each category.
 select category, sum(amount) as total_sales from sales group by category;
