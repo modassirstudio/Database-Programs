@@ -1,3 +1,6 @@
+-- GROUP BY Practice | 14 Sep 2026 | 10 questions
+-- Topics: COUNT, SUM, AVG, MIN, MAX, GROUP BY, ORDER BY
+
 create database if not exists deepseek;
 use deepseek;
 
